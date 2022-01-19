@@ -1,4 +1,10 @@
 body {
-  background: blanchedalmond;
+  background: #181818;
+  color: #d6949f;
+}
+
+.light-mode {
+  background: #F8F8F8;
+  color: #d6949f;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,13 @@
+$Primarycolor : #181818;
+$Secondarycolor : #F8F8F8;
+
 body{
-    background: blanchedalmond
+    background: $Primarycolor;
+    color: rgb(214, 148, 159);
+    
+}
+
+.light-mode{
+    background: $Secondarycolor;
+    color: rgb(214, 148, 159);
 }
