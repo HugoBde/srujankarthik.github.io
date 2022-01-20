@@ -1,12 +1,7 @@
-var body = document.body;
-var btn = document.getElementById("toggle");
+let body = document.body;
+let btn = document.getElementById("toggle-view");
 btn.addEventListener('click', function () {
     body.classList.toggle('light-mode');
 })
-
-// var btn = document.getElementById("toggle");
-// btn.addEventListener('click', function () {
-//     document.body.classList.toggle('light-mode');
-// })
 
 console.log('everything is loaded');
