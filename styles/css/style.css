@@ -7,4 +7,8 @@ body {
   background: #F8F8F8;
   color: #d6949f;
 }
+
+#toggle-view {
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
