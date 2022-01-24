@@ -8,6 +8,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/css/style.css" />
+    <link rel="stylesheet" href="styles/css/modal.css" />
 
     <!-- Bootstrap Icon Cdn -->
     <link
@@ -23,8 +24,27 @@
     <!-- set up a static nav bar -->
     <h1>ayo work in progress mate</h1>
     <i id="toggle-view" class="bi bi-moon-fill"></i>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">
+          Well, here's some ambiguous information which i'm writing down here
+        </div>
+        <button data-modal-close class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        Sorry, this is a work in progress. I know, I know the font isn't quite
+        visible. And, the background is a bit too funky(ish). But, I'm working
+        on it. Follow along! Might take some time to get it all working.
+        Probably in the latter half of the year. Busy, times ay! Well, I hope
+        you're doing well and have a good day! keke :)
+      </div>
+    </div>
+    <div class="active" id="overlay"></div>
   </body>
 
   <!-- Scripts -->
   <script src="scripts/main.js"></script>
+  <script src="scripts/modal.js"></script>
 </html>
