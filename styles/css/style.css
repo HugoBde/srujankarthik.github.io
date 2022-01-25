@@ -1,10 +1,16 @@
+@font-face {
+  font-family: 'ITC Avant Garde Gothic';
+  src: url(/font/avgr45w.ttf);
+}
+
 body {
   background: #181818;
-  color: #F8F8F8;
+  color: #f8f8f8;
+  font-family: 'AvantGarde-Book',  sans-serif;
 }
 
 .light-mode {
-  background: #F8F8F8;
+  background: #f8f8f8;
   color: #d6949f;
 }
 

@@ -7,6 +7,7 @@
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   border: 2px solid white;
+  border-radius: 10px;
   z-index: 10;
   background: #CC95C0;
   /* fallback for old browsers */
@@ -14,9 +15,10 @@
   background: -webkit-gradient(linear, left top, right top, from(#7AA1D2), color-stop(#DBD4B4), to(#CC95C0));
   background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 30px;
   color: black;
-  height: 70%;
-  width: 70%;
+  height: 60%;
+  width: 50%;
 }
 
 .modal.inactive {
@@ -35,13 +37,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid black;
 }
 
 .modal-header .title {
-  font-size: 1.5rem;
+  font-size: 2.6rem;
   font-weight: bold;
-  color: black;
+  letter-spacing: -2px;
+  color: white;
 }
 
 .modal-header .close-button {
@@ -54,7 +56,8 @@
 }
 
 .modal-body {
-  padding: 10px 15px;
+  padding: 115px 15px;
+  letter-spacing: -2px;
 }
 
 #overlay {

@@ -1,17 +1,22 @@
-$Primarycolor : #181818;
-$Secondarycolor : #F8F8F8;
+$Primarycolor: #181818;
+$Secondarycolor: #f8f8f8;
 
-body{
-    background: $Primarycolor;
-    color: $Secondarycolor;
-    
+@font-face{
+    font-family: 'ITC Avant Garde Gothic';
+    src: url(/font/avgr45w.ttf);
 }
 
-.light-mode{
-    background: $Secondarycolor;
-    color: rgb(214, 148, 159);
+body {
+  background: $Primarycolor;
+  color: $Secondarycolor;
+  font-family: 'AvantGarde-Book',  sans-serif;
 }
 
-#toggle-view{
-    cursor: pointer;
+.light-mode {
+  background: $Secondarycolor;
+  color: rgb(214, 148, 159);
+}
+
+#toggle-view {
+  cursor: pointer;
 }
