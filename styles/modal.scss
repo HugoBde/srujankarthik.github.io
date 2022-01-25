@@ -4,15 +4,11 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: 0.2s ease-in-out;
-    border: 2px solid white;
+    border: 4px solid white;
     border-radius: 10px;
     z-index: 10;
-    background: #CC95C0;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
     font-size: 30px;
     color: black;
     height: 60%;
@@ -34,7 +30,7 @@
         font-size: 2.6rem;
         font-weight: bold;
         letter-spacing: -2px;
-        color: white;
+        color: red;
     }
     .close-button{
         cursor: pointer;

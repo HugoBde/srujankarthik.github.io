@@ -1,10 +1,19 @@
 $Primarycolor: #181818;
 $Secondarycolor: #f8f8f8;
 
-@font-face{
-    font-family: 'ITC Avant Garde Gothic';
-    src: url(/font/avgr45w.ttf);
+@font-face {
+    font-family: 'AvantGarde-Book', sans-serif;
+    src: url('AvantGarde-Book.svg#AvantGarde-Book') format('svg'),
+        url('AvantGarde-Book.ttf') format('truetype'),
+        url('AvantGarde-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
+// @font-face{  PUTTING THIS HERE JIC IF THE ABOVE ONE DOES NOT WORK 
+//     font-family: 'ITC Avant Garde Gothic';
+//     src: url(/font/avgr45w.ttf);
+// }
 
 body {
   background: $Primarycolor;

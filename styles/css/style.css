@@ -1,6 +1,8 @@
 @font-face {
-  font-family: 'ITC Avant Garde Gothic';
-  src: url(/font/avgr45w.ttf);
+  font-family: 'AvantGarde-Book', sans-serif;
+  src: url("AvantGarde-Book.svg#AvantGarde-Book") format("svg"), url("AvantGarde-Book.ttf") format("truetype"), url("AvantGarde-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
